@@ -25,7 +25,7 @@ public class ExempleTest {
 	  @Test
 	  public void test3() throws Exception {
 		Exemple ex = new Exemple();		
-		assertTrue(ex.getMessage(0).equals(REP_NEG));
+		assertTrue(ex.getMessage(0).equals(REP_POS));
 	  }
 
 	  @Test
